@@ -1,0 +1,19 @@
+[project]
+name = "library-management-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Asakhe-S", email = "asakhesotyato1@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "django>=6.1.1",
+]
+
+[project.scripts]
+library-management-system = "library_management_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
